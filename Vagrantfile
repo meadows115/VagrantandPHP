@@ -47,4 +47,9 @@ Vagrant.configure("2") do |config|
       service mysql restart
     SHELL
   end
+
+  config.vm.define "queryconverter" do |queryconverter|
+    queryconverter.vm.network "private_network", ip: "192.168.2.13"
+    queryconverter.vm.synced_folder ".", "/vagrant", owner: "vagrant", group: "vagrant", mount_options: ["dmode=775,fmode=777"] 
+  end
 end

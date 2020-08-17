@@ -1,12 +1,12 @@
 <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
 <head>
-<title>My database test page</title>
+<title>Conversions</title>
 </head>
 <body>
 
-<h1>Test page for database </h1>
-<p>Content from the users table:</p>
+<h1>Welcome to the best place for conversions! </h1>
+<p>Unit to convert from:</p>
 
 <table border="1">
 <tr><th>First Name</th><th>Last Name</th></tr>
