@@ -31,6 +31,7 @@ while($row = $q->fetch()){
 ?>
 
 </table>
+<p>testing <a href="http://192.168.2.13"> query converter</a></p>
 </body>
 </html>
 
