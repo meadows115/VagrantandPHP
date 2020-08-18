@@ -49,7 +49,7 @@ Vagrant.configure("2") do |config|
   end
 
   config.vm.define "queryconverter" do |queryconverter|
-    queryconverter.vm.hostname = "queryserver"
+    queryconverter.vm.hostname = "queryconverter"
     queryconverter.vm.network "forwarded_port", guest: 80, host: 8081, host_ip: "127.0.0.1"
     queryconverter.vm.network "private_network", ip: "192.168.2.13"
     queryconverter.vm.synced_folder ".", "/vagrant", owner: "vagrant", group: "vagrant", mount_options: ["dmode=775,fmode=777"] 

@@ -7,3 +7,4 @@
 
 setup-database.sql text eol=lf
 test-website.conf text eol=lf
+conversion-website.conf text eol=lf
