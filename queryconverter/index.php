@@ -1,8 +1,12 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
 <html>
 <head>
-<title>Testing...</title>
+<title>MeasurementInformation</title>
 </head>
+
 <body>
-<?php echo '<p>This is a test</p>'; ?> 
+<h1>Welcome to the best place to store your measurements! </h1>
+
 </body>
 </html>
+
