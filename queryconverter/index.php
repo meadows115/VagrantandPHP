@@ -4,6 +4,7 @@
 <title>Members</title>
 </head>
 <body>
+<h1>All Members: </h1>
     <table border="1">
       <tr><th>First Name</th><th>Last Name</th><th>Address</th><th>Contact Number</th><th>Height</th><th>Weight</th><th>Body Fat Percentage</th><th>Exercise Level</th><th>Sex</th><th>Goal</th></tr>
 
